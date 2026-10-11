@@ -1,6 +1,7 @@
 <Solution>
   <Folder Name="/Core/">
     <Project Path="Core/SoftBreak.Onion.APPLICATION/SoftBreak.Onion.APPLICATION.csproj" />
+    <Project Path="Core/SoftBreak.Onion.CONTRACT/SoftBreak.Onion.CONTRACT.csproj" />
     <Project Path="Core/SoftBreak.Onion.DOMAIN/SoftBreak.Onion.DOMAIN.csproj" />
   </Folder>
   <Folder Name="/Infrastructure/">
