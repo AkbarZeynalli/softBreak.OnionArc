@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/Core/">
+    <Project Path="Core/SoftBreak.Onion.APPLICATION/SoftBreak.Onion.APPLICATION.csproj" />
+    <Project Path="Core/SoftBreak.Onion.DOMAIN/SoftBreak.Onion.DOMAIN.csproj" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="Infrastructure/SoftBreak.Onion.InnerInfrastructure/SoftBreak.Onion.InnerInfrastructure.csproj" />
+    <Project Path="Infrastructure/SoftBreak.Onion.Persistence/SoftBreak.Onion.Persistence.csproj" />
+  </Folder>
+  <Folder Name="/Presentation/">
+    <Project Path="Presentation/SoftBreak.Onion.WebAPI/SoftBreak.Onion.WebAPI.csproj" />
+  </Folder>
+</Solution>
