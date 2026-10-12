@@ -7,17 +7,15 @@ using System.Text;
 
 namespace SoftBreak.Onion.DOMAIN.Entities.Concretes
 {
-    public class AppUser : IdentityUser<int>, IEntity
+    public class AppUser : BaseEntity
     {
-        public int Id { get; set; }
-        public DateTime CreatedAt { get; set; }
-        public DateTime? UpdatedAt { get; set; }
-        public DateTime? DeletedAt { get; set; }
-        public DataStatus Status { get; set; }
-
+        public string UserName { get; set; }
+        public string Password { get; set; }
 
         //Releational Properties
         public virtual AppUserProfile Profile { get; set; }
         public virtual ICollection<Order> Orders { get; set; }
+
+        public virtual ICollection<AppUserRole> AppUserRoles { get; set; }
     }
 }

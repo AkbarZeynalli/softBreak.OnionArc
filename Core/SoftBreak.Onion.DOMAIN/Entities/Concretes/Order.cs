@@ -8,7 +8,6 @@ namespace SoftBreak.Onion.DOMAIN.Entities.Concretes
     public class Order : BaseEntity
     {
         public string ShippingAddress { get; set; }
-
         public int? AppUserId { get; set; }
 
         //Releational Properties
